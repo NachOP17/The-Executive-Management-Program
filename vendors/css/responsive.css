@@ -1,0 +1,278 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+
+  
+    .title-text a {font-size: 24px;}
+    section { padding: 60px 0; }
+    .title h1 {font-size: 160%;}
+    .advantages-content {left: 0%;}
+    .program {
+        font-size: 95% !important;
+    }
+   
+    
+    .correo {
+        width: 280px;
+    }
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media  (min-width:769px) and (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+	.main_menu_bg .navbar-nav>li>a {
+		font-size: 14px;
+	}
+    .program {
+        font-size: 100% !important;
+    }
+    
+    .title-text {
+        margin-bottom: 27px;
+    }
+    
+        .navbar-nav a {
+        font-size: 90% !important;
+    }
+    
+}
+/* Landscape phones and portrait tablets */
+@media (min-width:595px) and (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+	.main_menu_bg .navbar-nav>li>a {
+		font-size: 14px;
+	}
+	.single_footer_right{
+		text-align:left;
+	}
+	.single_home_right {
+		 margin-left:0px;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: transparent;
+		background-color: rgba(255, 255, 255, 0.8);
+		margin-top: 11px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+		color: #ff5e3a;
+		background-color: transparent;
+	}
+    .title-text a {
+        font-size: 200%;
+    }
+    .title-text {
+        margin-bottom: 6%;
+        padding-top: 0%;}  
+    .title-img img {
+        height: 50px;
+        width: auto;
+        margin-left: -15px;
+        bottom: 50px;
+    }
+     .advantages-content {left: 0%;}
+    
+    .program {
+        font-size: 100% !important;
+    }
+   .header-img {display: none !important;}
+    
+
+    .img-bigfish {
+    display:none;
+    visibility: hidden;
+        
+    }
+    
+    .correo {
+        width: 282px;
+    }
+    
+    .dinero-tuition p {
+        padding-bottom: 8px;
+    }
+    
+}
+
+
+@media (min-width:401px) and (max-width: 595px) {
+    .img-bigfish {
+    display:none;
+    visibility: hidden;
+    }
+    
+    .dinero-tuition {
+        padding-bottom: 8px;
+    }
+}
+
+
+
+/* Landscape phones and smaller */
+@media (min-width:320px) and (max-width: 595px) {
+    html {
+        font-size: 65%;
+    }
+    
+	.single_footer_right{
+		text-align:left;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: transparent;
+		background-color: rgba(255, 255, 255, 0.8);
+		margin-top: 11px;
+	}
+
+    .faculty {font-size: 85% !important;}
+    
+    .advantages-content {font-size: 80% !important;
+    left: 0%;}
+    
+    .title-text a {
+        font-size: 180%;
+    }
+    .title-text {
+        padding-bottom: 0;
+        padding-top: 2%;
+    }  
+    
+    .header-img {display: none !important;}
+  
+    .margen {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .title-img img {
+        height: 50px;
+        width: auto;
+        margin-left: -15px;
+    }
+    
+    
+    .recuadro {
+        margin-top: 10%;
+    }
+   
+    #rotaciones {
+        margin-top: 10%;
+    }
+    
+    .texto-form p {
+        font-size: 90%;
+    }
+    
+    .img-bigfish img {
+        width: 45%;
+        height: auto;
+    }
+    
+
+    footer ul a {
+        font-size: 90%;
+    }
+    
+    .correo {
+        width: 250px;
+    }
+    
+    .modal-body {
+        height: 200px;
+    }
+    
+    .dinero-tuition p {
+        padding-bottom: 22px; 
+    }
+}
+
+
+
+@media (max-width: 320px) {
+
+    html {
+        font-size: 60.5%;
+    }
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: transparent;
+		background-color: rgba(255, 255, 255, 0.8);
+		margin-top: 11px;
+	}
+    
+     .title-text a {
+         font-size: 140%;
+    }
+    .title-text {
+        padding-top: 0%;
+    }
+    
+    .title-img img {
+        height: 30px;
+    }
+    
+    h1 {
+        font-size: 15px !important;
+    }
+
+    .faculty {font-size: 80% !important;}
+    
+    .program {font-size: 90% !important;}
+    
+    .advantages-content {
+        font-size: 75% !important;
+        left: 0%;
+    }
+    .header-img {display: none !important;}
+    
+    .margen {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .texto-form p {
+        font-size: 75%;
+    }
+    
+    .img-bigfish img {
+        width: 50%;
+        height: auto;
+    }
+    
+    footer ul a {
+        font-size: 80%;
+    }
+    
+    .correo {
+        width: 245px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
